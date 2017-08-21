@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Map", "Map.csproj", "{832E5DD7-F97E-C6A8-B81C-EAFAD49B1656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Map.Plugins", "Map.Plugins.csproj", "{ACD06425-4234-EF49-AE51-7F820171996C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Map.Editor", "Map.Editor.csproj", "{7D96D0F0-C33A-D2AC-F856-A393B6C7815E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Map.Editor.Plugins", "Map.Editor.Plugins.csproj", "{EA78283B-E88A-FFB7-BC13-1C2C934211CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{832E5DD7-F97E-C6A8-B81C-EAFAD49B1656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832E5DD7-F97E-C6A8-B81C-EAFAD49B1656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832E5DD7-F97E-C6A8-B81C-EAFAD49B1656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832E5DD7-F97E-C6A8-B81C-EAFAD49B1656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD06425-4234-EF49-AE51-7F820171996C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD06425-4234-EF49-AE51-7F820171996C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD06425-4234-EF49-AE51-7F820171996C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD06425-4234-EF49-AE51-7F820171996C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D96D0F0-C33A-D2AC-F856-A393B6C7815E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D96D0F0-C33A-D2AC-F856-A393B6C7815E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D96D0F0-C33A-D2AC-F856-A393B6C7815E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D96D0F0-C33A-D2AC-F856-A393B6C7815E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA78283B-E88A-FFB7-BC13-1C2C934211CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA78283B-E88A-FFB7-BC13-1C2C934211CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA78283B-E88A-FFB7-BC13-1C2C934211CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA78283B-E88A-FFB7-BC13-1C2C934211CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
