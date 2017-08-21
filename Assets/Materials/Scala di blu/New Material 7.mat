@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: New Material 7
+  m_Shader: {fileID: 4800000, guid: d288a1f2a304efd419e96c78f844b6ef, type: 3}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2450
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 2.12, y: 2}
+        m_Offset: {x: 2, y: 2}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 96661bebb9d8446439a62a5e3a64502b, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionTex:
+        m_Texture: {fileID: 2800000, guid: 0315480b4816a6344894978791cc190e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FalloffTex:
+        m_Texture: {fileID: 2800000, guid: f5b149393f64b524ab653f1fbff66b9f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Fresnel:
+        m_Texture: {fileID: 2800000, guid: cc52a0cf1d9764249ae3a9d9025909ce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Illum:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MotionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapII:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 1, y: 1}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: 2f321ed5704586149873886d97aae451, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex:
+        m_Texture: {fileID: 2800000, guid: 09c97ae036e0948a4aff441ca6a0d08e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectiveColor:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowTex:
+        m_Texture: {fileID: 2800000, guid: cc52a0cf1d9764249ae3a9d9025909ce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Spec_Gloss_Reflec_Masks:
+        m_Texture: {fileID: 2800000, guid: f5b149393f64b524ab653f1fbff66b9f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToonShade:
+        m_Texture: {fileID: 8900000, guid: 51e3f49dbd110a7011005aba44295342, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _snow:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 4.22, y: 1.84}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpAmt: 53.2
+    - _BumpScale: 1
+    - _ColorMask: 15
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DistortionPower: 4
+    - _DstBlend: 0
+    - _EdgeAlpha: 1
+    - _EdgeLength: 3
+    - _Emission: 1
+    - _Freezeeffectnormal: 0
+    - _FresnelScale: 0.75
+    - _FrezFalloff: 2.55
+    - _FrezPow: 2
+    - _GerstnerIntensity: 1
+    - _Gloss: 0.61
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Ice_fresnel: 0
+    - _LocalGlobal: 0
+    - _MaxTreshold: 0.5
+    - _Metalics: 1
+    - _Metallic: 0.66
+    - _Mode: 0
+    - _MotionAmount: 0
+    - _OcclusionStrength: 1
+    - _Outline: 0.002
+    - _Parallax: 0.02
+    - _ReflDistort: 0.44
+    - _Reflection: 1
+    - _RefrDistort: 0.4
+    - _Shininess: 1
+    - _Smoothness: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Stencil: 5.85
+    - _StencilComp: 11.76
+    - _StencilOp: 2.01
+    - _StencilReadMask: 290.8
+    - _StencilWriteMask: 256.96
+    - _TargetValue: 0
+    - _TimeScale1: 30
+    - _TimeScale2: 5
+    - _Transparency: -1
+    - _TresholdDensity: 20
+    - _TresholdFalloff: 1.2
+    - _UVSec: 0
+    - _UseUIAlphaClip: 0
+    - _WaveScale: 0.063
+    - _WavesDensity: 10
+    - _ZWrite: 1
+    - _snow_slider: 0
+    m_Colors:
+    - WaveSpeed: {r: 19, g: 9, b: -16, a: -7}
+    - _AnimationDirection: {r: 1, g: 1, b: 1, a: 1}
+    - _AnimationTiling: {r: 2.2, g: 2.2, b: -1.1, a: -1.1}
+    - _BaseColor: {r: 0.0343858, g: 0.25532454, b: 0.7794118, a: 0.5}
+    - _BumpDirection: {r: 1, g: 1, b: -1, a: 1}
+    - _BumpTiling: {r: 1, g: 1, b: -2, a: 3}
+    - _Color: {r: 1, g: 0, b: 0, a: 0}
+    - _DistortParams: {r: 8.12, g: 11.88, b: 11.79, a: 11.83}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GAmplitude: {r: 0.3, g: 0.35, b: 0.25, a: 0.25}
+    - _GDirectionAB: {r: 0.3, g: 0.85, b: 0.85, a: 0.25}
+    - _GDirectionCD: {r: 0.1, g: 0.9, b: 0.5, a: 0.5}
+    - _GFrequency: {r: 1.3, g: 1.35, b: 1.25, a: 1.25}
+    - _GSpeed: {r: 1.2, g: 1.375, b: 1.1, a: 1.5}
+    - _GSteepness: {r: 1, g: 1, b: 1, a: 1}
+    - _HorizonColor: {r: 0.172, g: 0.463, b: 0.435, a: 1}
+    - _InvFadeParemeter: {r: 0.15, g: 0.15, b: 0.5, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectColor: {r: 0.35294116, g: 0.35294116, b: 0.35294116, a: 0.5}
+    - _ReflectionColor: {r: 0.047848176, g: 0.06648141, b: 0.43382353, a: 0.5}
+    - _RefrColor: {r: 0.41911763, g: 0.9298934, b: 1, a: 1}
+    - _SpecColor: {r: 0.124134935, g: 0.16182445, b: 0.41176468, a: 0}
+    - _SpecularColor: {r: 0.039215688, g: 0.058823533, b: 0.3803922, a: 1}
+    - _WavesColor: {r: 0.14005734, g: 0.24264705, b: 0.037467565, a: 0.25}
+    - _WorldLightDir: {r: 0, g: 0.1, b: -0.5, a: 0}
