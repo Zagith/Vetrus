@@ -1,4 +1,5 @@
 WindowsStandalone
+fc0c1b6f01e24c72e7669c2cea34d371 Assembly-CSharp.dll:.camerrotate
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LevelReset
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SceneAndURLLoader
 7ba1e84ad3d2d8813486668e75f842ce Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.ExtinguishableParticleSystem
@@ -32,6 +33,7 @@ daabd8d8800a87cff11f866c4d06a232 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:.EventSystemChecker
 5068bc7e323c614e8e3c4e61f062de7c Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Car.SkidTrail
 78ba0cb076d118d8a68e451418ae5a6e Assembly-CSharp-firstpass.dll:UnityStandardAssets.CinematicEffects.ScreenSpaceReflection
+3b338261cbc94274a36becbf0bb1fda6 Assembly-CSharp.dll:.CharacterMovement
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PauseMenu
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.f
 f1f69a1055829793adbb485c4b019e70 Assembly-CSharp.dll:.Test
@@ -163,8 +165,10 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 69f05d94227d8676c14071b3dbe1b417 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.DragRigidbody
 0b9561ae87c263bf84d7325f6d179d70 Assembly-CSharp.dll:.CameraShake
+fc0c1b6f01e24c72e7669c2cea34d371 Assembly-CSharp.dll:.camerrotate
 2f6eb88edfba86f2b51caebc04bf8c06 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CinematicEffects.Bloom
 78ebae5ed9b3edeb216da437b99754a4 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.Joystick
+3b338261cbc94274a36becbf0bb1fda6 Assembly-CSharp.dll:.CharacterMovement
 149e538468c9a609cf26b23682c996c7 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.PlatformSpecificContent
 37bf4d6a6d424731cb4a9b998783e5c6 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Characters.ThirdPerson.ThirdPersonCharacter
 9927f9033995c048dcee5258ceb7659a Assembly-CSharp.dll:.CameraSwitch
@@ -274,6 +278,7 @@ a51173280b81aed3c792da6e9cebc4cd Assembly-CSharp-firstpass.dll:UnityStandardAsse
 a51173280b81aed3c792da6e9cebc4cd Assembly-CSharp-firstpass.dll:UnityStandardAssets.ImageEffects.Vortex
 ab232dc3d94359ca42eabb9c72cbbb82 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.WaterHoseParticles
 f671a42aea5f34fec6a4450a3668c615 Assembly-CSharp.dll:UnityEngine.PostProcessing.PostProcessingProfile
+a0d27ee021870a53c0c6bc8992ca4921 Assembly-CSharp.dll:.fhvb
 2f264043a6bb59ca3369df5a4d180e17 Assembly-CSharp-firstpass.dll:UnityStandardAssets.ImageEffects.CameraMotionBlur
 c9576c6a51e2e71bc5caab85a96801e8 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.SmokeParticles
 db3b233e35a88802fed1717d19c3d9ec Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.FollowTarget
@@ -294,6 +299,7 @@ f4b175ffc1eeca85d2783436b4c764a7 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 a345656ad83887b6a1f8bbb9f5d04988 Assembly-CSharp.dll:MultyMaskShader.PostEffect
 e2a8fd4524fc2a3a236b7e7720b544a6 Assembly-CSharp-firstpass.dll:UnityStandardAssets.ImageEffects.EdgeDetection
 b3432dfe180f02232d7612fb366593d3 Assembly-CSharp-firstpass.dll:UnityStandardAssets.ImageEffects.ColorCorrectionLookup
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.camera32
 3ae0dad0b55a80319e1d57c2dce28da7 Assembly-CSharp-firstpass.dll:UnityStandardAssets.ImageEffects.Tonemapping
 52118b803a76f06f343464bf85959c5d Assembly-CSharp-firstpass.dll:UnityStandardAssets.CinematicEffects.TemporalAntiAliasing
 a412f64ff4e4667098f82b7fa0bf56e2 Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.PlatformerCharacter2D

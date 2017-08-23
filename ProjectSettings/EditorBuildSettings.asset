@@ -14,10 +14,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/collidervetro.unity
     guid: 1e0946bab5d1c8d409cf25ccca8f1bf4
-  - enabled: 1
+  - enabled: 0
     path: Assets/1cubemap.unity
     guid: 4019ac63b9c6df0428898bba7e17cf8e
-  - enabled: 0
+  - enabled: 1
     path: Assets/55555.unity
     guid: e09e7ad939a5c1a4baa2b3b48b015706
   - enabled: 0
