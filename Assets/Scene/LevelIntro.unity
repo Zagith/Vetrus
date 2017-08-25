@@ -3392,7 +3392,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: f9a4184e3390ddb49b628cf40a68610d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114365813216919080, guid: 8ca563addbc8cc542acdfd0f0086f029, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 8ca563addbc8cc542acdfd0f0086f029, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &424984933 stripped
@@ -3553,11 +3554,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 436765560}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b08d9c664da4f9b4aa5055e719080abf, type: 3}
+  m_Script: {fileID: 11500000, guid: a51b9a4effc7d444991c3473020eab30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ragazza: {fileID: 0}
   isTrigger: 0
-  ragazza: []
+  source: {fileID: 0}
 --- !u!65 &436765564
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4634,6 +4636,20 @@ GameObject:
   m_PrefabParentObject: {fileID: 1893915941349486, guid: 8ca563addbc8cc542acdfd0f0086f029,
     type: 2}
   m_PrefabInternal: {fileID: 347914269}
+--- !u!114 &695781317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 695781316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a51b9a4effc7d444991c3473020eab30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ragazza: {fileID: 0}
+  isTrigger: 0
+  source: {fileID: 0}
 --- !u!82 &695781320
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5226,11 +5242,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 906260707}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b08d9c664da4f9b4aa5055e719080abf, type: 3}
+  m_Script: {fileID: 11500000, guid: a51b9a4effc7d444991c3473020eab30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ragazza: {fileID: 856620638}
   isTrigger: 0
-  ragazza: []
+  source: {fileID: 906260709}
 --- !u!65 &906260712
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5814,6 +5831,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 19cada87734759b4ebdecd1da582f2bc, type: 2}
+    - target: {fileID: 13700000, guid: f780e750628ea2c44a4b76ea095e94cd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c7efe0e7c18c0914a8d69345b15cb615, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f780e750628ea2c44a4b76ea095e94cd, type: 3}
   m_IsPrefabParent: 0
@@ -6386,7 +6407,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1127803734}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c8b7774d8a04b641ad55bce5dbdb17c, type: 3}
+  m_Script: {fileID: 11500000, guid: a67d3c19b5d74014cb0bf4b02c19919d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 906260709}
@@ -6531,11 +6552,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1132104384}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b08d9c664da4f9b4aa5055e719080abf, type: 3}
+  m_Script: {fileID: 11500000, guid: a51b9a4effc7d444991c3473020eab30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ragazza: {fileID: 0}
   isTrigger: 0
-  ragazza: []
+  source: {fileID: 0}
 --- !u!65 &1132104388
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6999,11 +7021,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1298581140}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b08d9c664da4f9b4aa5055e719080abf, type: 3}
+  m_Script: {fileID: 11500000, guid: a51b9a4effc7d444991c3473020eab30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ragazza: {fileID: 0}
   isTrigger: 0
-  ragazza: []
+  source: {fileID: 0}
 --- !u!65 &1298581144
 BoxCollider:
   m_ObjectHideFlags: 0

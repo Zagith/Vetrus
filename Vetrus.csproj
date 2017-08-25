@@ -85,16 +85,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\ActiveCutScene.cs" />
+    <Compile Include="Assets\Script\CameraRotate.cs" />
     <Compile Include="Assets\Script\CameraShake.cs" />
-    <Compile Include="Assets\Script\camerrotate.cs" />
+    <Compile Include="Assets\Script\Character\PlayerInAir.cs" />
+    <Compile Include="Assets\Script\Character\PlayerManager.cs" />
     <Compile Include="Assets\Script\ClickCubeMap.cs" />
+    <Compile Include="Assets\Script\Cloud.cs" />
     <Compile Include="Assets\Script\fhvb.cs" />
     <Compile Include="Assets\Script\fps.cs" />
-    <Compile Include="Assets\Script\GameManager.cs" />
+    <Compile Include="Assets\Script\GameManager1.cs" />
     <Compile Include="Assets\Script\InitialTrigger.cs" />
     <Compile Include="Assets\Script\Instance.cs" />
-    <Compile Include="Assets\Script\Play.cs" />
-    <Compile Include="Assets\Script\PlayerManager.cs" />
+    <Compile Include="Assets\Script\Instances\IEnumerators.cs" />
+    <Compile Include="Assets\Script\Instances\RagazzaAnimations.cs" />
+    <Compile Include="Assets\Script\Instances\Variables.cs" />
     <Compile Include="Assets\Script\TargetFrameRate.cs" />
     <Compile Include="Assets\Script\Test.cs" />
   </ItemGroup>
