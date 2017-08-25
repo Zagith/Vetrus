@@ -19,81 +19,83 @@ public class PlayerManager : MonoBehaviour {
     Vector3 moveDirection = Vector3.zero;
     float counterStart = 10f;
     float theCounter;
+    public bool selected;
 
     #region Instances
     RagazzaAnimations Anim;
     IEnumerators IEnum;
+    CharSelect sel;
     #endregion
 
     void Start()
     {
+        sel = GetComponent<CharSelect>();
         anim = GetComponent<Animator>();
         Anim = GetComponent<RagazzaAnimations>();
         IEnum = GetComponent<IEnumerators>();
         theCounter = counterStart;
 
     }
-    void Update()
+    void FixedUpdate()
     {
+        selected = sel.selected;
         CharacterController controller = GetComponent<CharacterController>();
         Vector3 velocity = GetComponent<CharacterController>().velocity;
+        if (selected)
+        {
+            transform.Rotate(0, Input.GetAxis("Mouse X") * rotateSpeed, 0);
+            if (Input.GetAxis("Vertical") > 0)
+            {
+                Anim.VerticalInputAnim();
+            }
+            else
+            {
+                Anim.VerticalInputAnimOff();
+            }
+            Vector3 forward = transform.TransformDirection(Vector3.forward);
+            float curSpeed = speed * Input.GetAxis("Vertical");
+            controller.SimpleMove(forward * curSpeed);
 
-        transform.Rotate(0, Input.GetAxis("Mouse X") * rotateSpeed, 0);
-        if (Input.GetAxis("Vertical") > 0)
-        {
-            Anim.VerticalInputAnim();
-        }
-        else
-        {
-            Anim.VerticalInputAnimOff();
-        }
-        Vector3 forward = transform.TransformDirection(Vector3.forward);
-        float curSpeed = speed * Input.GetAxis("Vertical");
-        controller.SimpleMove(forward * curSpeed);
+            if (Input.GetAxis("Vertical") < 0)
+            {
+                Anim.MoonWalkOn();
+            }
+            else
+            {
+                Anim.MoonWalkOff();
+            }
+            //salto da fermo 
+            if (Input.GetKeyUp("space") && InAir == false && anim.GetBool("Run") == false && anim.GetBool("backrun") == false)
+            {
+                Anim.IdleJump();
+            }
+            //salto in corsa
+            else if (Input.GetKeyUp("space") && InAir == false && anim.GetBool("Run") == true && anim.GetBool("backrun") == false)
+            {
+                Anim.RunJump();
+            }
+            // turn left and right
 
-        if (Input.GetAxis("Vertical") < 0)
-        {
-            Anim.MoonWalkOn();
+            if (Input.GetAxis("Mouse X") != 0 && Input.GetAxis("Mouse X") > 0 && anim.GetBool("Run") == false)
+            {
+                Anim.TurnrightOn();
+            }
+            else if (Input.GetAxis("Mouse X") == 0)
+            {
+                Anim.TurnrightOff();
+            }
+            if (Input.GetAxis("Mouse X") != 0 && Input.GetAxis("Mouse X") < 0 && anim.GetBool("Run") == false)
+            {
+                Anim.TurnleftOn();
+            }
+            else if (Input.GetAxis("Mouse X") == 0)
+            {
+                Anim.TurnleftOff();
+            }
+            moveDirection.y -= gravity * Time.deltaTime;
+            controller.Move(moveDirection * Time.deltaTime);
         }
-        else
-        {
-            Anim.MoonWalkOff();
-        }
-
-
-        // turn left and right
-
-
-        //if (Input.GetAxis("Horizontal") != 0 && Input.GetAxis("Horizontal") > 0 && Anim.GetBool("Run") == false)
-        if (Input.GetAxis("Mouse X") != 0 && Input.GetAxis("Mouse X") > 0 && anim.GetBool("Run") == false)
-        {
-            Anim.TurnrightOn();
-        }
-        else if (Input.GetAxis("Mouse X") == 0)
-        {
-            Anim.TurnrightOff();
-        }
-        if (Input.GetAxis("Mouse X") != 0 && Input.GetAxis("Mouse X") < 0 && anim.GetBool("Run") == false)
-        {
-            Anim.TurnleftOn();
-        }
-        else if (Input.GetAxis("Mouse X") == 0)
-        {
-            Anim.TurnleftOff();
-        }
-
-        //salto da fermo 
-        if (Input.GetKeyUp("space") && InAir == false && anim.GetBool("Run") == false && anim.GetBool("backrun") == false)
-        {
-            Anim.IdleJump();
-        }
-        //salto in corsa
-        else if (Input.GetKeyUp("space") && InAir == false && anim.GetBool("Run") == true && anim.GetBool("backrun") == false)
-        {
-            Anim.RunJump();
-        }
-        moveDirection.y -= gravity * Time.deltaTime;
-        controller.Move(moveDirection * Time.deltaTime);
+        
     }
     //voidsalto
     public void Jump()

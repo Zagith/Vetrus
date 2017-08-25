@@ -13,7 +13,7 @@ public class RagazzaAnimations : MonoBehaviour {
 
     void Start()
     {
-        //IEnum = GetComponent<IEnumerators>();
+        
         Anim = GetComponent<Animator>();
         player = GetComponent<PlayerManager>();
         if (IEnum == null)
