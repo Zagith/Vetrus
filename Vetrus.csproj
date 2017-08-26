@@ -95,6 +95,7 @@
     <Compile Include="Assets\Script\fhvb.cs" />
     <Compile Include="Assets\Script\fps.cs" />
     <Compile Include="Assets\Script\GameManager1.cs" />
+    <Compile Include="Assets\Script\getpixel.cs" />
     <Compile Include="Assets\Script\InitialTrigger.cs" />
     <Compile Include="Assets\Script\Instance.cs" />
     <Compile Include="Assets\Script\Instances\AirRagazzaAnimations.cs" />

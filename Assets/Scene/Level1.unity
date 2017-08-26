@@ -2322,13 +2322,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 919286609}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: -0, y: -0.44187176, z: -0, w: 0.8970782}
+  m_LocalPosition: {x: 6.94, y: 5.67, z: -5.98}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -52.447002, z: 0}
 --- !u!114 &919286615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2340,7 +2340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af382058ae1be984b9d7f45e909b992b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: {x: 1, y: 1, z: 1}
+  velocity: {x: 0, y: 0, z: 0}
   time: 1
 --- !u!1 &928352837
 GameObject:
@@ -4233,6 +4233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81dc6a790e64609418cb24b4d2a87c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  source: {fileID: 0}
   anim: {fileID: 1928390432}
   rotateSpeed: 1.5
   jumpSpeed: 10
@@ -4680,6 +4681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81dc6a790e64609418cb24b4d2a87c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  source: {fileID: 0}
   anim: {fileID: 2057240137}
   rotateSpeed: 1.5
   jumpSpeed: 10

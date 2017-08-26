@@ -3,8 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Audio : MonoBehaviour {
+    
+    public AudioSource clouds;
     [SerializeField]
-    AudioSource clouds;
+    AudioSource wind;
+    [SerializeField]
+    AudioSource walk;
+    [SerializeField]
+    AudioSource run;
 
     private bool isPlayed;
 
@@ -18,4 +24,23 @@ public class Audio : MonoBehaviour {
         isPlayed = true;
         Debug.Log(gameObject.name + "Audio");
     }
+    public void ActiveWindAudio()
+    {
+        wind.Play();
+        isPlayed = true;
+        Debug.Log(gameObject.name + "Audio");
+    }
+    public void ActiveWalkdAudio()
+    {
+        walk.Play();
+        isPlayed = true;
+        Debug.Log(gameObject.name + "Audio");
+    }
+    public void ActiveRunAudio()
+    {
+        run.Play();
+        isPlayed = true;
+        Debug.Log(gameObject.name + "Audio");
+    }
+
 }

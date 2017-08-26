@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 public class PlayerManager : MonoBehaviour {
-
+    [SerializeField]
+    Audio source;
     [SerializeField]
     Animator anim;
     [SerializeField]
@@ -38,7 +39,7 @@ public class PlayerManager : MonoBehaviour {
     }
     void FixedUpdate()
     {
-        selected = sel.selected;
+        //selected = sel.selected;
         CharacterController controller = GetComponent<CharacterController>();
         Vector3 velocity = GetComponent<CharacterController>().velocity;
         if (selected)
@@ -47,6 +48,7 @@ public class PlayerManager : MonoBehaviour {
             if (Input.GetAxis("Vertical") > 0)
             {
                 Anim.VerticalInputAnim();
+                //source.ActiveRunAudio();
             }
             else
             {
